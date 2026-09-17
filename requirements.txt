@@ -1,7 +1,6 @@
 entsoe-py>=0.6
 pandas>=2.0
 numpy
-scipy
 statsmodels>=0.14
 matplotlib>=3.7
 python-dotenv>=1.0
