@@ -34,8 +34,8 @@ cp .env.example .env          # then put your ENTSO-E API key in .env
 jupyter notebook notebook.ipynb   # Kernel -> Restart & Run All
 ```
 
-Without a key, the notebook runs on synthetic data. It prints a warning banner, and every figure and table
-title is tagged `[SYNTHETIC DATA]`.
+An ENTSO-E API key is required. Without a valid `ENTSOE_API_KEY` in `.env`, the notebook fails immediately
+with a clear error rather than falling back to anything.
 
 ## Methodology
 
