@@ -6,6 +6,10 @@ Does a higher renewable generation share reduce German day-ahead electricity pri
 displacement, and has this effect strengthened over 2019–2025? The renewable-share coefficient is estimated
 on the full sample and compared across two sub-periods, 2019–2021 and 2022–2025.
 
+![Day-ahead price vs. renewable share, DE-LU 2019-2025](figures/merit_order_curve.png)
+
+*Source: ENTSO-E Transparency Platform, hourly data, 2019-2025.*
+
 ## Data source
 
 [ENTSO-E Transparency Platform](https://transparency.entsoe.eu/), bidding zone **DE-LU**, 2019-01-01 to
@@ -99,7 +103,7 @@ total-load control, both p < 0.001.
 
 ### What the data shows
 
-The basic pattern is clear: hours with more wind and solar have lower prices. This holds across the whole
+The figure above shows the basic pattern clearly: hours with more wind and solar have lower prices. This holds across the whole
 range of renewable shares in both sub-periods, and it is much stronger in the later years. In 2022–2025,
 average prices fall from about 240 EUR/MWh in the hours with the least renewable generation to roughly zero
 in the hours where renewables supply more than 80 percent of output. In 2019–2021 the same curve runs from
