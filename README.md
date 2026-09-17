@@ -34,8 +34,7 @@ cp .env.example .env          # then put your ENTSO-E API key in .env
 jupyter notebook notebook.ipynb   # Kernel -> Restart & Run All
 ```
 
-An ENTSO-E API key is required. Without a valid `ENTSOE_API_KEY` in `.env`, the notebook fails immediately
-with a clear error rather than falling back to anything.
+An ENTSO-E API key is required. Without a valid `ENTSOE_API_KEY` in `.env`, the notebook fails immediately.
 
 ## Methodology
 
